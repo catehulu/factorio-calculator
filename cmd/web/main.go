@@ -14,8 +14,8 @@ func main() {
 	var path string
 	flag.StringVar(&path, "path", "/", "Provide project path as an absolute path")
 	flag.Parse()
-	models.InitItem("D:/Works/Mine/factorio-calculator/")
-	models.InitRecipe("D:/Works/Mine/factorio-calculator/")
+	models.InitItem(path)
+	models.InitRecipe(path)
 
 	server := &http.Server{
 		Addr:    portNumber,
