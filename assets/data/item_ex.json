@@ -1,0 +1,22 @@
+{
+  "wooden-chest" : {
+    "name" : "wooden-chest",
+    "type" : "aaaaaaaaaaaaaaaaaaaaaa",
+    "order" : "a[items]-a[wooden-chest]",
+    "fuel_value" : 1,
+    "stack_size" : 50,
+    "place_result" : "wooden-chest",
+    "other_field" : "idk"
+  },
+  "iron-chest" : {
+    "name" : "iron-chest",
+    "localised_name" : [
+      "entity-name.iron-chest"
+    ],
+    "type" : "item",
+    "order" : "a[items]-b[iron-chest]",
+    "fuel_value" : 0,
+    "stack_size" : 50,
+    "place_result" : "iron-chest"
+  }
+}
