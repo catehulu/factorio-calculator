@@ -19,7 +19,7 @@ func main() {
 	models.InitRecipe(path)
 
 	server := &http.Server{
-		Addr:    port,
+		Addr:    ":" + port,
 		Handler: routes(),
 	}
 
