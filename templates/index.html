@@ -69,6 +69,7 @@
                 if (qty < 1) {
                     alert("no you cant do that")
                     $("#submit").prop('disabled', false)
+                    return
                 }
                 $.ajax({
                     url: '/calculate',
