@@ -23,7 +23,7 @@ func main() {
 		Handler: routes(),
 	}
 
-	err := server.ListenAndServe()
 	fmt.Printf("Started server on port %v with path %v", port, path)
+	err := server.ListenAndServe()
 	log.Fatal(err)
 }
